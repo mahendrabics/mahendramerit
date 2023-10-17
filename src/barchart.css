@@ -1,0 +1,24 @@
+/* barchart.css */
+
+/* Style for the container of the bar chart */
+.bar-chart-size {
+ width: 60%; /* Adjust the width as needed (e.g., 60% of the container's width) */
+ margin: 0 auto; /* Center the chart horizontally */
+ padding: 10px; /* Reduce padding for a smaller chart */
+ background-color: #f2f2f2; /* Background color for the container */
+ border: 1px solid #ddd; /* Border for the container */
+ border-radius: 5px;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle effect */
+}
+
+/* Style for the chart title */
+.bar-chart-size h1 {
+ font-size: 16px; /* Increase font size for the title */
+ margin-bottom: 10px;
+}
+
+/* Style for the chart canvas */
+.bar-chart-size canvas {
+ max-width: 20%; /* Make sure the chart canvas adjusts to the container's width */
+ height: 20%; /* Allow the chart to adjust its height based on content */
+}

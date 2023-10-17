@@ -1,0 +1,5 @@
+.pie-chart-size {
+ width: 550px;
+ height: 550px;
+ margin: auto; /* Center the chart horizontally */
+}
