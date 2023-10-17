@@ -1,0 +1,31 @@
+.nav-container {
+ background-color: rgb(94, 58, 178); 
+ padding: 10px; 
+}
+
+.nav-ul {
+ list-style: none;
+ padding: 5px;
+ display: flex;
+ margin: 5px; 
+}
+
+.nav-ul li {
+margin-left: 1px; 
+margin: 0 105px; 
+}
+
+.nav-ul a {
+ text-decoration: none;
+ color: #fff; 
+ font-weight: bold;
+ transition: color 0.2s;
+}
+
+.nav-ul a:hover {
+ color: #007bff;
+}
+
+.error-message {
+ color: red;
+} 
